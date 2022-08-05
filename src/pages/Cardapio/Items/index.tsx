@@ -2,7 +2,6 @@ import cardapio from './itens.json';
 import Item from './Item';
 import styles from './Itens.module.scss';
 import { useEffect, useState } from 'react';
-import { timeStamp } from 'console';
 
 interface Props {
   busca: string;
