@@ -3,7 +3,7 @@ import { ReactComponent as NotFoundImage } from 'assets/not_found.svg';
 import classNames from 'classnames';
 import stylesTema from 'styles/Tema.module.scss';
 import { useNavigate } from 'react-router-dom';
-
+//teste
 export default function NotFound() {
   const navigate = useNavigate();
   return(
